@@ -1125,3 +1125,77 @@ table tr td, table tr th { padding: 0.25em 1.5em 0.25em 0.5em !important; }
     padding-bottom: 4px;
     margin-right: 144px;
 }
+
+/*
+* Mobile breakpoint V1
+* Part of the Zinnia project in July 2014
+* Contact evg@stamen.com
+*
+* If you are reading this in the future and stamen.com is
+* still on Drupal, kill me
+*/
+
+@media only screen and (max-device-width: 480px) {
+
+  body {
+    font-size: 62px;
+    line-height: 72px;
+  }
+
+  #head {
+    position:fixed;
+    top:0;right:0;left:0;
+    background-color: black;
+  }
+
+  #head h1 {
+    padding: 0 10px 0 0;
+  }
+
+  #head h2 {
+    right: 10px;
+  }
+
+  #body {
+    padding: 111px 10px 24px 10px;
+    margin:0;
+  }
+  #errata {
+    float:none;
+    width:auto;
+  }
+
+  #errata .erratum a {
+    display:block;
+    background-color:lightblue;
+    padding:10px;
+    text-decoration: none !important;
+    color:white;
+    font-size:42px;
+    border-radius:3px;
+  }
+
+  #errata .erratum br, #errata .erratum p, #errata .erratum h3 {
+    display:none;
+  }
+
+  #errata .erratum ul, #errata .erratum li {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+  }
+
+  #posts {
+    float:none;
+    width:auto;
+  }
+
+  #posts h2 {
+    display:none;
+  }
+
+  #ghetto-shield {
+    display:none;
+  }
+}
+
